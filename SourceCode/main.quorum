@@ -1,7 +1,7 @@
 class Main
 
     action Main
-        output Fib(40)
+        output Fib(8)
     end
 
     action Fib(integer n) returns integer
