@@ -1,0 +1,17 @@
+class Main
+
+    action Main
+        output Fib(40)
+    end
+
+    action Fib(integer n) returns integer
+       if n=1   or n=0
+          return 1
+       end
+ 
+    return Fib(n-1) + Fib(n-2)
+
+        
+    end
+
+end
